@@ -21,7 +21,7 @@ compinit -u
 
 # Environment variables
 export TZ=Asia/Tokyo
-export LANG=ja_JP.utf8
+export LANG=ja_JP.UTF-8
 export LD_LIBRARY_PATH=/usr/local/lib:/usr/lib:/lib
 
 export GREP_OPTIONS='--color=auto'
@@ -36,7 +36,8 @@ alias less='less -R'
 alias la='ls -la'
 alias ll='ls -l'
 alias diff='colordiff -u'
-
+alias tmblr='ssh pi@192.168.128.116'
+alias tmblr1='ssh pi@192.168.128.150'
 # show filelist when change directory.
 chpwd() {
   ll
